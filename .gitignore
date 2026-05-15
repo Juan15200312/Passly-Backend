@@ -17,7 +17,7 @@ db.sqlite3-journal
 # Static/Media
 assets/staticfiles/
 assets/media/
-data_dump.json
+#data_dump.json
 
 # IDEs
 .idea/

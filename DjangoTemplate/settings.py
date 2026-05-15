@@ -137,10 +137,13 @@ WSGI_APPLICATION = 'DjangoTemplate.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}",
-        conn_max_age=600
+        default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}"
     )
 }
+
+# Configuración extra para mejorar el rendimiento de la conexión
+DATABASES['default']['CONN_MAX_AGE'] = 600
+
 
 
 # Password validation
