@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Databases
+db.sqlite3
+db.sqlite3-journal
+
+# Static/Media
+assets/staticfiles/
+assets/media/
+data_dump.json
+
+# IDEs
+.idea/
+.vscode/
+
+# Build scripts
+# build.sh (optional to keep, usually fine to keep)
