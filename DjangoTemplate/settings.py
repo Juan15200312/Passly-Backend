@@ -91,6 +91,7 @@ UNFOLD = {
         },
     ],
     "SITE_SYMBOL": "speed",
+    "SITE_URL": "http://localhost:4200/" if DEBUG else "https://passly-frontend.vercel.app/",
     "COLORS": {
         "primary": {
             "50": config('COLOR'), "100": config('COLOR'), "200": config('COLOR'), "300": config('COLOR'),
